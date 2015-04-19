@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+	version="2.2">
+
+	<application>
+		<render-kit>
+			<renderer>
+				<component-family>org.primefaces.component</component-family>
+				<renderer-type>org.primefaces.component.MegaMenuRenderer</renderer-type>
+				<renderer-class>lab.rendered.FrownMegaMenuRenderer</renderer-class>
+			</renderer>
+		</render-kit>
+	</application>
+
+</faces-config>
